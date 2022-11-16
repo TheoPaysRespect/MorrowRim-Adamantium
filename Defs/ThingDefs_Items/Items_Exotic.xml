@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MorrowRim_BlessedAdamantium</defName>
+    <label>blessed adamantium</label>
+    <description>A large shard of adamantium, blessed by Almalexia. Shards such as these are worth a small fortune, as it is said the touch can heal even the most grievous of wounds.</description>
+    <graphicData>
+      <texPath>Things/Item/Resources/MorrowRim_BlessedAdamantium</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <useHitPoints>false</useHitPoints>
+	<healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>2</Mass>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <!--<drawGUIOverlay>false</drawGUIOverlay>-->
+    <!--<tradeability>Sellable</tradeability>-->
+    <techLevel>Medieval</techLevel>
+    <tradeTags>
+      <li>AshlandExotic</li>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="RockBase">
+		<defName>MorrowRim_MineableAdamantium</defName>
+		<label>adamantium node</label>
+		<description>Rock containing shards of adamantium. Can be mined for adamantium, an extremely sought after metal.</description>
+		<graphicData>
+		  <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(96,99,108)</color>
+		  <!--<color>(110,112,115)</color>-->
+		  <colorTwo>(146,147,159)</colorTwo>
+		  <!--<colorTwo>(146,147,159)</colorTwo>-->
+		</graphicData>
+		<statBases>
+		  <MaxHitPoints>6000</MaxHitPoints>
+		</statBases>
+		<building>
+		  <isResourceRock>true</isResourceRock>
+		  <mineableThing>MorrowRim_Adamantium</mineableThing>
+		  <mineableYield>20</mineableYield>
+		  <mineableScatterCommonality>0.02</mineableScatterCommonality>
+		  <mineableScatterLumpSizeRange>5~10</mineableScatterLumpSizeRange>
+		</building>
+	</ThingDef>
+
+</Defs>

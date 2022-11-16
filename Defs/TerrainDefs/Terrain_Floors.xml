@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef ParentName="TileMetalBase">
+		<defName>MorrowRim_AdamantiumTile</defName>
+		<label>adamantium tile</label>
+		<renderPrecedence>242</renderPrecedence>
+		<description>Adamantium tiles, much nicer to look at than regular steel ones, though not as nice as silver.</description>
+		<color>(146,147,159)</color>
+		<statBases>
+		  <Beauty>4</Beauty>
+		  <WorkToBuild>800</WorkToBuild>
+		  <Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+		  <MorrowRim_Adamantium>7</MorrowRim_Adamantium>
+		</costList>
+		<designationHotKey>Misc3</designationHotKey>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<tags>
+		  <li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+</Defs>
