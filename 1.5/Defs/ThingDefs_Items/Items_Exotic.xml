@@ -28,7 +28,7 @@
     <!--<tradeability>Sellable</tradeability>-->
     <techLevel>Medieval</techLevel>
     <tradeTags>
-      <li>AshlandExotic</li>
+      <li>ESCP_ExoticMetal</li>
       <li>ExoticMisc</li>
     </tradeTags>
   </ThingDef>

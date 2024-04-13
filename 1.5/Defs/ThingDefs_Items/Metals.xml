@@ -54,7 +54,7 @@
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<tradeTags>
-			<li>AshlandExotic</li>
+			<li>ESCP_Material</li>
 		</tradeTags>
 	</ThingDef>
 </Defs>
